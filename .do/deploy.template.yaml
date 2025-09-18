@@ -1,8 +1,11 @@
 spec:
-  name: sample-html
+  name: soulink-landing
   static_sites:
   - environment_slug: html
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-html.git
-    name: sample-html
+      repo_clone_url: https://github.com/soulink8/soulink-landing.git
+    name: soulink-landing
+    source_dir: /
+    build_command: ""
+    output_dir: /

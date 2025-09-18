@@ -1,8 +1,11 @@
-name: sample-html
+name: soulink-landing
 static_sites:
 - environment_slug: html
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-html
-  name: sample-html
+    repo: soulink8/soulink-landing
+  name: soulink-landing
+  source_dir: /
+  build_command: ""
+  output_dir: /
